@@ -19,7 +19,7 @@ public class MessageService {
         System.out.println("Client connected: " + clientSocket.getInetAddress());
 
         // Do something with the client socket here...
-// Get the input stream of the client socket
+        // Get the input stream of the client socket
         InputStream inputStream = clientSocket.getInputStream();
         // Receive a message from the client
         byte[] buffer = new byte[1024];
